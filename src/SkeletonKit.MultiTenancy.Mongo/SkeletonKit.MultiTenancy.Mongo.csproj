@@ -31,7 +31,10 @@
   <ItemGroup>
     <PackageReference Include="CacheManager.Core" Version="2.0.0" />
     <PackageReference Include="MongoDB.Driver" Version="2.30.0" />
-    <PackageReference Include="SkeletonKit.MultiTenancy" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SkeletonKit.MultiTenancy\SkeletonKit.MultiTenancy.csproj" />
   </ItemGroup>
 
   <ItemGroup>
