@@ -3,18 +3,45 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>disable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <RepositoryUrl>https://github.com/zahichemaly/SkeletonKit/tree/master/src/SkeletonKit.MultiTenancy</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>favicon.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/zahichemaly/SkeletonKit</PackageProjectUrl>
+    <Title>SkeletonKit Multi-Tenancy</Title>
+    <PackageTags>tenant;tenantmanagement;multi-tenancy</PackageTags>
+    <Authors>Zahi Chemaly</Authors>
+    <Description>Generic multi-tenancy support for your preferred database. Relies on a special header value to communicate with the tenant's database.</Description>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\assets\favicon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.3.0" />
     <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="SkeletonKit.Configuration" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SkeletonKit.Common\SkeletonKit.Common.csproj" />
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

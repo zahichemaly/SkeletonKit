@@ -3,15 +3,42 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <RepositoryUrl>https://github.com/zahichemaly/SkeletonKit/tree/master/src/SkeletonKit.MultiTenancy.Mongo</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>favicon.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/zahichemaly/SkeletonKit</PackageProjectUrl>
+    <Title>SkeletonKit Multi-Tenancy</Title>
+    <PackageTags>tenant;tenantmanagement;multi-tenancy;mongodb</PackageTags>
+    <Authors>Zahi Chemaly</Authors>
+    <Description>MongoDB implementation of MultiTenancy.</Description>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\assets\favicon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="CacheManager.Core" Version="2.0.0" />
     <PackageReference Include="MongoDB.Driver" Version="2.30.0" />
+    <PackageReference Include="SkeletonKit.MultiTenancy" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SkeletonKit.MultiTenancy\SkeletonKit.MultiTenancy.csproj" />
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
