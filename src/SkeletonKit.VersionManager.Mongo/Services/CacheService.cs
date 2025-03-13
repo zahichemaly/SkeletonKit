@@ -1,9 +1,9 @@
 ﻿using CacheManager.Core;
-using CME.MultiTenancy.Abstractions.Providers;
-using CME.VersionManager.Abstractions.Services;
-using CME.VersionManager.Models;
+using SkeletonKit.MultiTenancy.Abstractions.Providers;
+using SkeletonKit.VersionManager.Abstractions.Services;
+using SkeletonKit.VersionManager.Models;
 
-namespace CME.VersionManager.Mongo.Services
+namespace SkeletonKit.VersionManager.Mongo.Services
 {
     internal class CacheService : ICacheService
     {

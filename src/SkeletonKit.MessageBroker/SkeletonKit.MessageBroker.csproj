@@ -21,9 +21,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CME.Common\CME.Common.csproj" />
-    <ProjectReference Include="..\CME.Configuration\SkeletonKit.Configuration.csproj" />
-    <ProjectReference Include="..\CME.MultiTenancy\CME.MultiTenancy.csproj" />
+    <ProjectReference Include="..\SkeletonKit.Common\SkeletonKit.Common.csproj" />
+    <ProjectReference Include="..\SkeletonKit.Configuration\SkeletonKit.Configuration.csproj" />
+    <ProjectReference Include="..\SkeletonKit.MultiTenancy\SkeletonKit.MultiTenancy.csproj" />
   </ItemGroup>
 
 </Project>

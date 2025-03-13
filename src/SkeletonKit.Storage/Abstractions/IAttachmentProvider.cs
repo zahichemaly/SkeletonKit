@@ -1,4 +1,4 @@
-﻿namespace CME.Storage.Abstractions
+﻿namespace SkeletonKit.Storage.Abstractions
 {
     public interface IAttachmentProvider
     {

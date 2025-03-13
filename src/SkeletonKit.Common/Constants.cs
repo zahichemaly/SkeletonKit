@@ -1,4 +1,4 @@
-﻿namespace CME.Common
+﻿namespace SkeletonKit.Common
 {
     public static class Constants
     {

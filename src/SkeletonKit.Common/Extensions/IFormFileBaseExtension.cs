@@ -3,7 +3,7 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.Text.RegularExpressions;
 
-namespace CME.Common.Extensions
+namespace SkeletonKit.Common.Extensions
 {
     public static class IFormFileBaseExtension
     {

@@ -1,4 +1,4 @@
-﻿namespace CME.VersionManager.Models
+﻿namespace SkeletonKit.VersionManager.Models
 {
     /// <summary>
     /// This class represents the view model of the app version

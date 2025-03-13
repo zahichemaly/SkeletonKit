@@ -1,4 +1,4 @@
-﻿namespace CME.VersionManager.Exceptions
+﻿namespace SkeletonKit.VersionManager.Exceptions
 {
     /// <summary>
     /// This is the base exception class for InvalidOsNameException and VersionFormatExcetpion

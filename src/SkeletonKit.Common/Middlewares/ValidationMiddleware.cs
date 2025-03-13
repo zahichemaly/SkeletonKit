@@ -1,13 +1,13 @@
-﻿using CME.Common.Exceptions;
+﻿using SkeletonKit.Common.Exceptions;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
-using ValidationException = CME.Common.Exceptions.ValidationErrorException;
+using ValidationException = SkeletonKit.Common.Exceptions.ValidationErrorException;
 
-namespace CME.Common.Middlewares
+namespace SkeletonKit.Common.Middlewares
 {
     internal class ValidationMiddleware : IAsyncActionFilter
     {

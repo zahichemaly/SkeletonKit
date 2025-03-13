@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using System.Reflection;
 
-namespace CME.Configuration
+namespace SkeletonKit.Configuration
 {
     public static class ConfigurationExtensions
     {

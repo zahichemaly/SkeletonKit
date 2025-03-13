@@ -1,4 +1,4 @@
-﻿namespace CME.Common.Entities
+﻿namespace SkeletonKit.Common.Entities
 {
     public sealed class UserProfile : BaseEntity
     {

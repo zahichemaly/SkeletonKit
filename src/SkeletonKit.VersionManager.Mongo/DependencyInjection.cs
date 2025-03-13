@@ -1,8 +1,8 @@
-﻿using CME.VersionManager.Mongo.Repositories;
-using CME.VersionManager.Mongo.Services;
+﻿using SkeletonKit.VersionManager.Mongo.Repositories;
+using SkeletonKit.VersionManager.Mongo.Services;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CME.VersionManager.Mongo
+namespace SkeletonKit.VersionManager.Mongo
 {
     public static class DependencyInjection
     {

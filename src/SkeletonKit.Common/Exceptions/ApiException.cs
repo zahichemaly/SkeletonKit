@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace CME.Common.Exceptions
+namespace SkeletonKit.Common.Exceptions
 {
     public abstract class ApiException : Exception
     {

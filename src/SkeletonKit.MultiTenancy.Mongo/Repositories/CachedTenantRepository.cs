@@ -1,8 +1,8 @@
 ﻿using CacheManager.Core;
-using CME.MultiTenancy.Abstractions.Repositories;
-using CME.MultiTenancy.Entities;
+using SkeletonKit.MultiTenancy.Abstractions.Repositories;
+using SkeletonKit.MultiTenancy.Entities;
 
-namespace CME.MultiTenancy.Mongo.Repositories
+namespace SkeletonKit.MultiTenancy.Mongo.Repositories
 {
     internal class CachedTenantRepository : ITenantRepository
     {

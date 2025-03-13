@@ -1,11 +1,11 @@
 ﻿using CacheManager.Core;
-using CME.MultiTenancy.Abstractions.Repositories;
-using CME.MultiTenancy.Entities;
-using CME.MultiTenancy.Mongo.Repositories;
-using CME.MultiTenancy.Repositories;
+using SkeletonKit.MultiTenancy.Abstractions.Repositories;
+using SkeletonKit.MultiTenancy.Entities;
+using SkeletonKit.MultiTenancy.Mongo.Repositories;
+using SkeletonKit.MultiTenancy.Repositories;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CME.MultiTenancy.Mongo
+namespace SkeletonKit.MultiTenancy.Mongo
 {
     public static class DependencyInjection
     {

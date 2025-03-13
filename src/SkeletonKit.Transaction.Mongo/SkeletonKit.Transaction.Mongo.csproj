@@ -12,8 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CME.MultiTenancy\CME.MultiTenancy.csproj" />
-    <ProjectReference Include="..\CME.Transaction\CME.Transaction.csproj" />
+    <ProjectReference Include="..\SkeletonKit.MultiTenancy\SkeletonKit.MultiTenancy.csproj" />
+    <ProjectReference Include="..\SkeletonKit.Transaction\SkeletonKit.Transaction.csproj" />
   </ItemGroup>
 
 </Project>

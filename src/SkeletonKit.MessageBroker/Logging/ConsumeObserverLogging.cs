@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using Serilog;
 
-namespace CME.MessageBroker.Logging
+namespace SkeletonKit.MessageBroker.Logging
 {
     internal class ConsumeObserverLogger : IConsumeObserver
     {

@@ -1,4 +1,4 @@
-﻿namespace CME.Common.Enums
+﻿namespace SkeletonKit.Common.Enums
 {
     public enum DeviceType
     {

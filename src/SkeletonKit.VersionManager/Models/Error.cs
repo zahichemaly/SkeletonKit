@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace CME.VersionManager.Models
+namespace SkeletonKit.VersionManager.Models
 {
     /// <summary>
     /// This class represents an error model

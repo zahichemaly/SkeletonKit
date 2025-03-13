@@ -1,4 +1,4 @@
-﻿namespace CME.Transaction
+﻿namespace SkeletonKit.Transaction
 {
     /// <summary>
     /// Marker interface to represent a request with a void response

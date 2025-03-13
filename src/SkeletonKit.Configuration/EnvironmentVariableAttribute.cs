@@ -1,4 +1,4 @@
-﻿namespace CME.Configuration
+﻿namespace SkeletonKit.Configuration
 {
     /// <summary>
     /// Annotate a propery of a class of type <seealso cref="IConfig"/> and specify the environment variable name

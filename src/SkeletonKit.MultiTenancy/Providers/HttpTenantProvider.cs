@@ -1,12 +1,12 @@
-﻿using CME.Common;
-using CME.MultiTenancy.Abstractions.Providers;
-using CME.MultiTenancy.Abstractions.Repositories;
-using CME.MultiTenancy.Entities;
+﻿using SkeletonKit.Common;
+using SkeletonKit.MultiTenancy.Abstractions.Providers;
+using SkeletonKit.MultiTenancy.Abstractions.Repositories;
+using SkeletonKit.MultiTenancy.Entities;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
 using System.Text;
 
-namespace CME.MultiTenancy.Services
+namespace SkeletonKit.MultiTenancy.Services
 {
     public class HttpTenantProvider : ITenantProvider
     {

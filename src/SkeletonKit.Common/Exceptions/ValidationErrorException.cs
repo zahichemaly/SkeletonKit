@@ -1,4 +1,4 @@
-﻿namespace CME.Common.Exceptions
+﻿namespace SkeletonKit.Common.Exceptions
 {
     public sealed class ValidationErrorException : Exception
     {

@@ -1,9 +1,9 @@
-﻿using CME.Common.Enums;
-using CME.Common.Extensions;
+﻿using SkeletonKit.Common.Enums;
+using SkeletonKit.Common.Extensions;
 using Microsoft.AspNetCore.Mvc;
 using System.Globalization;
 
-namespace CME.Common.Controllers
+namespace SkeletonKit.Common.Controllers
 {
     public class IngoControllerBase : Controller
     {

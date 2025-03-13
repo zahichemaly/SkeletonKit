@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 
-namespace CME.Common.Extensions
+namespace SkeletonKit.Common.Extensions
 {
     public static class HealthChecksExtensions
     {

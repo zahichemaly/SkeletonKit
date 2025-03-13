@@ -1,4 +1,4 @@
-﻿namespace CME.MultiTenancy.Entities
+﻿namespace SkeletonKit.MultiTenancy.Entities
 {
     public class Tenant
     {

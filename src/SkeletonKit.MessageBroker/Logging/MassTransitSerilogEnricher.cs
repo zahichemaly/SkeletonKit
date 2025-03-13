@@ -3,7 +3,7 @@ using Serilog.Core;
 using Serilog.Enrichers.MassTransit;
 using Serilog.Events;
 
-namespace CME.MessageBroker.Logging
+namespace SkeletonKit.MessageBroker.Logging
 {
     public class MassTransitSerilogEnricher : ILogEventEnricher
     {

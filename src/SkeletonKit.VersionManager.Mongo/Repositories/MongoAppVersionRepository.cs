@@ -1,9 +1,9 @@
-﻿using CME.VersionManager.Abstractions.Repositories;
-using CME.VersionManager.Models;
+﻿using SkeletonKit.VersionManager.Abstractions.Repositories;
+using SkeletonKit.VersionManager.Models;
 using MongoDB.Driver;
 using MongoDbGenericRepository;
 
-namespace CME.VersionManager.Mongo.Repositories
+namespace SkeletonKit.VersionManager.Mongo.Repositories
 {
     internal class MongoAppVersionRepository : IAppVersionRepository
     {

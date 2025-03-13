@@ -1,4 +1,4 @@
-﻿namespace CME.VersionManager.Configurations
+﻿namespace SkeletonKit.VersionManager.Configurations
 {
     /// <summary>
     /// This class represents the model of the credentials

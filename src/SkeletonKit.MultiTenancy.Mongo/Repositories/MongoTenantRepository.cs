@@ -1,10 +1,10 @@
-﻿using CME.MultiTenancy.Abstractions.Repositories;
-using CME.MultiTenancy.Entities;
-using CME.MultiTenancy.Repositories;
+﻿using SkeletonKit.MultiTenancy.Abstractions.Repositories;
+using SkeletonKit.MultiTenancy.Entities;
+using SkeletonKit.MultiTenancy.Repositories;
 using MongoDB.Bson;
 using MongoDB.Driver;
 
-namespace CME.MultiTenancy.Mongo.Repositories
+namespace SkeletonKit.MultiTenancy.Mongo.Repositories
 {
     internal class MongoTenantRepository : ITenantRepository
     {

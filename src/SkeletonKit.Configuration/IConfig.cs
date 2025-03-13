@@ -1,4 +1,4 @@
-﻿namespace CME.Configuration
+﻿namespace SkeletonKit.Configuration
 {
     /// <summary>
     /// Marker interface for a settings class.

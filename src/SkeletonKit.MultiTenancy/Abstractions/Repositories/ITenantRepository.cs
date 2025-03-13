@@ -1,6 +1,6 @@
-﻿using CME.MultiTenancy.Entities;
+﻿using SkeletonKit.MultiTenancy.Entities;
 
-namespace CME.MultiTenancy.Abstractions.Repositories
+namespace SkeletonKit.MultiTenancy.Abstractions.Repositories
 {
     public interface ITenantRepository
     {

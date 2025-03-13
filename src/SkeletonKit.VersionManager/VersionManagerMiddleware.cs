@@ -1,8 +1,8 @@
-﻿using CME.VersionManager.Helpers;
-using CME.VersionManager.Models;
+﻿using SkeletonKit.VersionManager.Helpers;
+using SkeletonKit.VersionManager.Models;
 using Microsoft.AspNetCore.Http;
 
-namespace CME.VersionManager
+namespace SkeletonKit.VersionManager
 {
     internal class VersionManagerMiddleware
     {

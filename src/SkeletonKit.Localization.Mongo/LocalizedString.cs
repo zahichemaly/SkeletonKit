@@ -1,4 +1,4 @@
-﻿namespace CME.Localization.Mongo
+﻿namespace SkeletonKit.Localization.Mongo
 {
     /// <summary>
     /// Represents a string that can be localized. 

@@ -1,8 +1,8 @@
-﻿using CME.MultiTenancy.Abstractions.Providers;
-using CME.Storage.Abstractions;
-using CME.Storage.Configurations;
+﻿using SkeletonKit.MultiTenancy.Abstractions.Providers;
+using SkeletonKit.Storage.Abstractions;
+using SkeletonKit.Storage.Configurations;
 
-namespace CME.Storage
+namespace SkeletonKit.Storage
 {
     internal class AttachmentDirectoryProvider : IAttachmentDirectoryProvider
     {

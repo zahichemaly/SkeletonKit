@@ -1,6 +1,6 @@
 ﻿using Org.BouncyCastle.OpenSsl;
 
-namespace CME.Security
+namespace SkeletonKit.Security
 {
     internal class PasswordFinder : IPasswordFinder
     {

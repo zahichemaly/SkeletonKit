@@ -1,4 +1,4 @@
-﻿namespace CME.VersionManager.Extensions
+﻿namespace SkeletonKit.VersionManager.Extensions
 {
     internal static class VersionExtensions
     {

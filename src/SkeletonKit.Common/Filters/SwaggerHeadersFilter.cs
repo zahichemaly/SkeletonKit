@@ -2,7 +2,7 @@
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace CME.Common.Filters
+namespace SkeletonKit.Common.Filters
 {
     public class SwaggerHeadersFilter : IOperationFilter
     {
@@ -15,7 +15,7 @@ namespace CME.Common.Filters
                 Name = Constants.Headers.TenantId,
                 In = ParameterLocation.Header,
                 Required = true,
-                Example = new OpenApiString("cme")
+                Example = new OpenApiString("SkeletonKit")
             });
 
             operation.Parameters.Add(new OpenApiParameter

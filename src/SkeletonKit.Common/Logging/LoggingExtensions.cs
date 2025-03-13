@@ -7,7 +7,7 @@ using Serilog.Events;
 using Serilog.Exceptions;
 using Serilog.Exceptions.Core;
 
-namespace CME.Common.Logging
+namespace SkeletonKit.Common.Logging
 {
     public static class LoggingExtensions
     {

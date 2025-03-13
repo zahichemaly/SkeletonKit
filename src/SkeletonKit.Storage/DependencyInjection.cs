@@ -1,10 +1,10 @@
-﻿using CME.Configuration;
-using CME.Storage.Abstractions;
-using CME.Storage.Configurations;
+﻿using SkeletonKit.Configuration;
+using SkeletonKit.Storage.Abstractions;
+using SkeletonKit.Storage.Configurations;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CME.Storage
+namespace SkeletonKit.Storage
 {
     public static class DependencyInjection
     {

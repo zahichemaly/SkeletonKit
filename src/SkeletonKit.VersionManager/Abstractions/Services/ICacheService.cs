@@ -1,6 +1,6 @@
-﻿using CME.VersionManager.Models;
+﻿using SkeletonKit.VersionManager.Models;
 
-namespace CME.VersionManager.Abstractions.Services
+namespace SkeletonKit.VersionManager.Abstractions.Services
 {
     /// <summary>
     /// This interface provides methods for managing the cache service

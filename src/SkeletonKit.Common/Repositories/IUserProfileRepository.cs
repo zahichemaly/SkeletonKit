@@ -1,6 +1,6 @@
-﻿using CME.Common.Entities;
+﻿using SkeletonKit.Common.Entities;
 
-namespace CME.Common.Repositories
+namespace SkeletonKit.Common.Repositories
 {
     public interface IUserProfileRepository
     {

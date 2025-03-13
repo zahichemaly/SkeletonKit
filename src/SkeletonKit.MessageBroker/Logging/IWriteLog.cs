@@ -1,4 +1,4 @@
-﻿namespace CME.MessageBroker.Logging
+﻿namespace SkeletonKit.MessageBroker.Logging
 {
     public interface IWriteLog
     {

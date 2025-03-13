@@ -1,4 +1,4 @@
-﻿namespace CME.VersionManager.Exceptions
+﻿namespace SkeletonKit.VersionManager.Exceptions
 {
     /// <summary>
     /// This exception is to be thrown when the os name sent in the header is invalid

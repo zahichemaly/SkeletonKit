@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 
-namespace CME.Localization.Mongo
+namespace SkeletonKit.Localization.Mongo
 {
     public static class LocalizationStartupExtensions
     {

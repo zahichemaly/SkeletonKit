@@ -1,12 +1,12 @@
-﻿using CME.Common;
-using CME.MultiTenancy.Abstractions.Repositories;
+﻿using SkeletonKit.Common;
+using SkeletonKit.MultiTenancy.Abstractions.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Primitives;
 using Newtonsoft.Json;
 using System.Text;
 
-namespace CME.MultiTenancy
+namespace SkeletonKit.MultiTenancy
 {
     internal class TenantMiddleware
     {

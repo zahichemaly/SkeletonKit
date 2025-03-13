@@ -1,6 +1,6 @@
-﻿using CME.Configuration;
+﻿using SkeletonKit.Configuration;
 
-namespace CME.MessageBroker.Configurations
+namespace SkeletonKit.MessageBroker.Configurations
 {
     public sealed class MessageBrokerSettings : IConfig
     {

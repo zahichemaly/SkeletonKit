@@ -1,10 +1,10 @@
-﻿using CME.VersionManager.Abstractions.Repositories;
-using CME.VersionManager.Abstractions.Services;
-using CME.VersionManager.Services;
+﻿using SkeletonKit.VersionManager.Abstractions.Repositories;
+using SkeletonKit.VersionManager.Abstractions.Services;
+using SkeletonKit.VersionManager.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CME.VersionManager
+namespace SkeletonKit.VersionManager
 {
     public static class DependencyInjection
     {

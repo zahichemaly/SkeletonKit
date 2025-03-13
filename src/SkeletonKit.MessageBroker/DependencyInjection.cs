@@ -1,10 +1,10 @@
-﻿using CME.Common;
-using CME.Common.Logging;
-using CME.Configuration;
-using CME.MessageBroker.Configurations;
-using CME.MessageBroker.Extensions;
-using CME.MessageBroker.Hosting;
-using CME.MessageBroker.Logging;
+﻿using SkeletonKit.Common;
+using SkeletonKit.Common.Logging;
+using SkeletonKit.Configuration;
+using SkeletonKit.MessageBroker.Configurations;
+using SkeletonKit.MessageBroker.Extensions;
+using SkeletonKit.MessageBroker.Hosting;
+using SkeletonKit.MessageBroker.Logging;
 using MassTransit;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
@@ -13,7 +13,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace CME.MessageBroker
+namespace SkeletonKit.MessageBroker
 {
     public static class DependencyInjection
     {

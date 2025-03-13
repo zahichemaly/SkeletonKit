@@ -1,4 +1,4 @@
-﻿namespace CME.VersionManager.Models
+﻿namespace SkeletonKit.VersionManager.Models
 {
     /// <summary>
     /// This class represents the model of the table AppVersion

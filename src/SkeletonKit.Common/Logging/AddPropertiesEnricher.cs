@@ -1,7 +1,7 @@
 ﻿using Serilog.Core;
 using Serilog.Events;
 
-namespace CME.Common.Logging
+namespace SkeletonKit.Common.Logging
 {
     internal class AddPropertiesEnricher : ILogEventEnricher
     {

@@ -1,7 +1,7 @@
-﻿using CME.MultiTenancy.Abstractions.Providers;
-using CME.MultiTenancy.Abstractions.Repositories;
-using CME.MultiTenancy.Configurations;
-using CME.MultiTenancy.Repositories;
+﻿using SkeletonKit.MultiTenancy.Abstractions.Providers;
+using SkeletonKit.MultiTenancy.Abstractions.Repositories;
+using SkeletonKit.MultiTenancy.Configurations;
+using SkeletonKit.MultiTenancy.Repositories;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 

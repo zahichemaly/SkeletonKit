@@ -1,8 +1,8 @@
-﻿using CME.Common.Extensions;
+﻿using SkeletonKit.Common.Extensions;
 using Microsoft.AspNetCore.Http;
 using Serilog.Context;
 
-namespace CME.Common.Logging
+namespace SkeletonKit.Common.Logging
 {
     internal class CustomEnricherSerilogMiddleware
     {

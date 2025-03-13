@@ -1,6 +1,6 @@
-﻿using CME.MultiTenancy.Entities;
+﻿using SkeletonKit.MultiTenancy.Entities;
 
-namespace CME.MultiTenancy.Configurations
+namespace SkeletonKit.MultiTenancy.Configurations
 {
     public sealed class TenantSettings
     {

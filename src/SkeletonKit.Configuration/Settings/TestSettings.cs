@@ -1,4 +1,4 @@
-﻿namespace CME.Configuration.Settings
+﻿namespace SkeletonKit.Configuration.Settings
 {
     /// <summary>
     /// Sample config

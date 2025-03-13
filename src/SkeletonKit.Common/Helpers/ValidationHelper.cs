@@ -1,8 +1,8 @@
-﻿using CME.Common.Exceptions;
+﻿using SkeletonKit.Common.Exceptions;
 using FluentValidation;
-using ValidationException = CME.Common.Exceptions.ValidationErrorException;
+using ValidationException = SkeletonKit.Common.Exceptions.ValidationErrorException;
 
-namespace CME.Common.Helpers
+namespace SkeletonKit.Common.Helpers
 {
     /// <summary>
     /// Used to manually validate a model.

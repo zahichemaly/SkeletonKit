@@ -1,4 +1,4 @@
-﻿namespace CME.Security
+﻿namespace SkeletonKit.Security
 {
     public interface ICryptographyHelper
     {

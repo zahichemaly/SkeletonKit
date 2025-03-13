@@ -1,4 +1,4 @@
-﻿namespace CME.VersionManager.Models
+﻿namespace SkeletonKit.VersionManager.Models
 {
     internal class VersionValidationResponse
     {

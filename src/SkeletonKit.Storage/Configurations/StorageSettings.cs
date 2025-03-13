@@ -1,7 +1,7 @@
 ﻿
-using CME.Configuration;
+using SkeletonKit.Configuration;
 
-namespace CME.Storage.Configurations
+namespace SkeletonKit.Storage.Configurations
 {
     public class StorageSettings : IConfig
     {

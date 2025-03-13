@@ -1,9 +1,9 @@
-﻿using CME.MultiTenancy.Abstractions.Providers;
+﻿using SkeletonKit.MultiTenancy.Abstractions.Providers;
 using Microsoft.Extensions.Logging;
 using MongoDB.Driver;
 using MongoDbGenericRepository;
 
-namespace CME.Transaction.Mongo
+namespace SkeletonKit.Transaction.Mongo
 {
     public abstract class BaseMongoDBCommand<TRequest, TResponse> : IDBCommand<TRequest, TResponse>
         where TRequest : ICommandRequest<TResponse>

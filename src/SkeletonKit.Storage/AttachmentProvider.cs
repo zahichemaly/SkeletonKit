@@ -1,8 +1,8 @@
-﻿using CME.Storage.Abstractions;
-using CME.Storage.Configurations;
+﻿using SkeletonKit.Storage.Abstractions;
+using SkeletonKit.Storage.Configurations;
 using Storage.Net.Blobs;
 
-namespace CME.Storage
+namespace SkeletonKit.Storage
 {
     internal class AttachmentProvider : IAttachmentProvider
     {

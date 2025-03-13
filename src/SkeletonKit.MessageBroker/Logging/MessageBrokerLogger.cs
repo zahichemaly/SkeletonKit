@@ -1,10 +1,10 @@
-﻿using CME.Common;
-using CME.Common.Extensions;
-using CME.MessageBroker.Hosting;
+﻿using SkeletonKit.Common;
+using SkeletonKit.Common.Extensions;
+using SkeletonKit.MessageBroker.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 
-namespace CME.MessageBroker.Logging
+namespace SkeletonKit.MessageBroker.Logging
 {
     internal class MessageBrokerLogger : ILogger
     {

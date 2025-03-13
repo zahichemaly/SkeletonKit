@@ -1,4 +1,4 @@
-﻿namespace CME.Storage
+﻿namespace SkeletonKit.Storage
 {
     internal class Constants
     {

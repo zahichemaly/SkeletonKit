@@ -1,10 +1,10 @@
-﻿using CME.VersionManager.Abstractions.Services;
-using CME.VersionManager.Models;
+﻿using SkeletonKit.VersionManager.Abstractions.Services;
+using SkeletonKit.VersionManager.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Primitives;
 
-namespace CME.VersionManager.Helpers
+namespace SkeletonKit.VersionManager.Helpers
 {
     internal class VersionManagerHelper
     {

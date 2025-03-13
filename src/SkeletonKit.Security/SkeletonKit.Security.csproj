@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CME.MultiTenancy\CME.MultiTenancy.csproj" />
-    <ProjectReference Include="..\CME.Storage\CME.Storage.csproj" />
+    <ProjectReference Include="..\SkeletonKit.MultiTenancy\SkeletonKit.MultiTenancy.csproj" />
+    <ProjectReference Include="..\SkeletonKit.Storage\SkeletonKit.Storage.csproj" />
   </ItemGroup>
 
 </Project>

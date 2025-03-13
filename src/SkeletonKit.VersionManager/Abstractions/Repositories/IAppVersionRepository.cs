@@ -1,6 +1,6 @@
-﻿using CME.VersionManager.Models;
+﻿using SkeletonKit.VersionManager.Models;
 
-namespace CME.VersionManager.Abstractions.Repositories
+namespace SkeletonKit.VersionManager.Abstractions.Repositories
 {
     /// <summary>
     /// This interface provides methods to access the AppVersion table.

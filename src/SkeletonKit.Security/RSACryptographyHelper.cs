@@ -1,6 +1,6 @@
 ﻿using CacheManager.Core;
-using CME.MultiTenancy.Abstractions.Providers;
-using CME.Storage.Abstractions;
+using SkeletonKit.MultiTenancy.Abstractions.Providers;
+using SkeletonKit.Storage.Abstractions;
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.OpenSsl;
@@ -8,7 +8,7 @@ using Org.BouncyCastle.Security;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace CME.Security
+namespace SkeletonKit.Security
 {
     internal class RSACryptographyHelper : ICryptographyHelper
     {

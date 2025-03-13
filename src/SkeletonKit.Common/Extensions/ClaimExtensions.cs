@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Security.Claims;
 
-namespace CME.Common.Extensions
+namespace SkeletonKit.Common.Extensions
 {
     public static class ClaimExtensions
     {

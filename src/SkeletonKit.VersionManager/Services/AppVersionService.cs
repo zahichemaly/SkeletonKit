@@ -1,10 +1,10 @@
-﻿using CME.VersionManager.Abstractions.Repositories;
-using CME.VersionManager.Abstractions.Services;
-using CME.VersionManager.Exceptions;
-using CME.VersionManager.Extensions;
-using CME.VersionManager.Models;
+﻿using SkeletonKit.VersionManager.Abstractions.Repositories;
+using SkeletonKit.VersionManager.Abstractions.Services;
+using SkeletonKit.VersionManager.Exceptions;
+using SkeletonKit.VersionManager.Extensions;
+using SkeletonKit.VersionManager.Models;
 
-namespace CME.VersionManager.Services
+namespace SkeletonKit.VersionManager.Services
 {
     /// <summary>
     /// This class implements the interface IAppVersionService. It represents the service responsible of managing the VersionMange dashboard

@@ -1,8 +1,8 @@
-﻿using CME.MultiTenancy.Abstractions.Repositories;
-using CME.MultiTenancy.Configurations;
-using CME.MultiTenancy.Entities;
+﻿using SkeletonKit.MultiTenancy.Abstractions.Repositories;
+using SkeletonKit.MultiTenancy.Configurations;
+using SkeletonKit.MultiTenancy.Entities;
 
-namespace CME.MultiTenancy.Repositories
+namespace SkeletonKit.MultiTenancy.Repositories
 {
     /// <summary>
     /// Returns tenants that are defined in a configuration file such as in the AppSettings.json.

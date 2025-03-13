@@ -1,11 +1,11 @@
-﻿using CME.Common;
-using CME.MultiTenancy.Abstractions.Repositories;
-using CME.MultiTenancy.Services;
+﻿using SkeletonKit.Common;
+using SkeletonKit.MultiTenancy.Abstractions.Repositories;
+using SkeletonKit.MultiTenancy.Services;
 using MassTransit;
 using MassTransit.DependencyInjection;
 using Microsoft.AspNetCore.Http;
 
-namespace CME.MessageBroker.Services
+namespace SkeletonKit.MessageBroker.Services
 {
     public class MessageBrokerTenantProvider : HttpTenantProvider
     {

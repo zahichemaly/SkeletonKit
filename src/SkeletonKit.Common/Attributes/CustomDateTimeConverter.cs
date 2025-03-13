@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json.Converters;
 
-namespace CME.Common.Attributes
+namespace SkeletonKit.Common.Attributes
 {
     public class CustomDateTimeConverter : IsoDateTimeConverter
     {

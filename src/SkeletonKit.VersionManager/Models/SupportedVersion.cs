@@ -1,4 +1,4 @@
-﻿namespace CME.VersionManager.Models
+﻿namespace SkeletonKit.VersionManager.Models
 {
     /// <summary>
     /// This class represents a model for the response of the call that checks if a version is supported or not

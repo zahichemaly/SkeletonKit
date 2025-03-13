@@ -1,4 +1,4 @@
-﻿namespace CME.VersionManager
+﻿namespace SkeletonKit.VersionManager
 {
     /// <summary>
     /// This class provides configurations related to the dashboard and the responses of the API like error responses.

@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace CME.Common.Extensions
+namespace SkeletonKit.Common.Extensions
 {
     public static class HttpContentExtensions
     {

@@ -1,10 +1,10 @@
-﻿using CME.Common.Exceptions;
+﻿using SkeletonKit.Common.Exceptions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using System.Net;
 
-namespace CME.Common.Middlewares
+namespace SkeletonKit.Common.Middlewares
 {
     internal class ExceptionMiddleware
     {

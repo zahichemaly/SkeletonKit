@@ -1,8 +1,8 @@
-﻿using CME.MessageBroker.Configurations;
+﻿using SkeletonKit.MessageBroker.Configurations;
 using MassTransit;
 using Microsoft.Extensions.Hosting;
 
-namespace CME.MessageBroker.Hosting
+namespace SkeletonKit.MessageBroker.Hosting
 {
     public class BusClient : IHostedService
     {

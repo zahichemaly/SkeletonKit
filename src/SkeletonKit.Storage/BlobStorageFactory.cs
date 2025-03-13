@@ -1,9 +1,9 @@
-﻿using CME.Storage.Configurations;
+﻿using SkeletonKit.Storage.Configurations;
 using Storage.Net;
 using Storage.Net.Blobs;
 using System.Net;
 
-namespace CME.Storage
+namespace SkeletonKit.Storage
 {
     /// <summary>
     /// Factory used to initialize the storage, based on the Clients appseting 

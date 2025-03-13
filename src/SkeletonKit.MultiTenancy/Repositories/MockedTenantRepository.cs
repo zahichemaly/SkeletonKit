@@ -1,7 +1,7 @@
-﻿using CME.MultiTenancy.Abstractions.Repositories;
-using CME.MultiTenancy.Entities;
+﻿using SkeletonKit.MultiTenancy.Abstractions.Repositories;
+using SkeletonKit.MultiTenancy.Entities;
 
-namespace CME.MultiTenancy.Repositories
+namespace SkeletonKit.MultiTenancy.Repositories
 {
     /// <summary>
     /// Returns mocked tenants that are hardcoded for testing purposes.
@@ -17,7 +17,7 @@ namespace CME.MultiTenancy.Repositories
                 new Tenant()
                 {
                     Id = "1",
-                    Name = "cme"
+                    Name = "SkeletonKit"
                 }
             };
         }

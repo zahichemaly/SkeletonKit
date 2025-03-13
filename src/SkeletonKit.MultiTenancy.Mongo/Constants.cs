@@ -1,4 +1,4 @@
-﻿namespace CME.MultiTenancy.Mongo
+﻿namespace SkeletonKit.MultiTenancy.Mongo
 {
     internal static class Constants
     {

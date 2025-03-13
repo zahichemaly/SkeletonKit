@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CME.Common\CME.Common.csproj" />
+    <ProjectReference Include="..\SkeletonKit.Common\SkeletonKit.Common.csproj" />
   </ItemGroup>
 
 </Project>

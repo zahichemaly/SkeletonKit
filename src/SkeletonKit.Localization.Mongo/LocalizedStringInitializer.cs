@@ -1,7 +1,7 @@
 ﻿using MongoDB.Bson.Serialization;
 using System.Linq.Expressions;
 
-namespace CME.Localization.Mongo
+namespace SkeletonKit.Localization.Mongo
 {
     public static class LocalizedStringInitializer
     {

@@ -1,6 +1,6 @@
-﻿using CME.VersionManager.Models;
+﻿using SkeletonKit.VersionManager.Models;
 
-namespace CME.VersionManager.Extensions
+namespace SkeletonKit.VersionManager.Extensions
 {
     /// <summary>
     /// This class is a static class that provides extension methods

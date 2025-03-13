@@ -3,7 +3,7 @@ using MongoDB.Bson.Serialization;
 using MongoDB.Bson.Serialization.Serializers;
 using JsonConvert = Newtonsoft.Json.JsonConvert;
 
-namespace CME.Localization.Mongo
+namespace SkeletonKit.Localization.Mongo
 {
     internal class LocalizedStringSerializer : SerializerBase<LocalizedString>
     {

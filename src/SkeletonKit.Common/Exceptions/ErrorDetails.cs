@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace CME.Common.Exceptions
+namespace SkeletonKit.Common.Exceptions
 {
     public class ErrorDetails
     {

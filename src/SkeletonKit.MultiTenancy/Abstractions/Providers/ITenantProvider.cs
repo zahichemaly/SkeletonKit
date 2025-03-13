@@ -1,6 +1,6 @@
-﻿using CME.MultiTenancy.Entities;
+﻿using SkeletonKit.MultiTenancy.Entities;
 
-namespace CME.MultiTenancy.Abstractions.Providers
+namespace SkeletonKit.MultiTenancy.Abstractions.Providers
 {
     public interface ITenantProvider
     {

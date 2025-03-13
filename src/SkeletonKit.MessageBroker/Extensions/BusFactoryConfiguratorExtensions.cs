@@ -1,13 +1,13 @@
-﻿using CME.Common;
-using CME.MessageBroker.Logging;
-using CME.MultiTenancy.Abstractions.Providers;
+﻿using SkeletonKit.Common;
+using SkeletonKit.MessageBroker.Logging;
+using SkeletonKit.MultiTenancy.Abstractions.Providers;
 using MassTransit;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
 using Serilog;
 using System.Text;
 
-namespace CME.MessageBroker.Extensions
+namespace SkeletonKit.MessageBroker.Extensions
 {
     public static class BusFactoryConfiguratorExtensions
     {
