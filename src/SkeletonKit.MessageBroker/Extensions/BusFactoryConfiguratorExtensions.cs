@@ -1,10 +1,7 @@
-﻿using SkeletonKit.Common;
-using SkeletonKit.MessageBroker.Logging;
-using SkeletonKit.MultiTenancy.Abstractions.Providers;
-using MassTransit;
+﻿using MassTransit;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
-using Serilog;
+using SkeletonKit.MultiTenancy.Abstractions.Providers;
 using System.Text;
 
 namespace SkeletonKit.MessageBroker.Extensions
@@ -21,20 +18,14 @@ namespace SkeletonKit.MessageBroker.Extensions
                     var tenant = tenantProvider.GetTenant();
                     if (tenant != null)
                     {
-                        c.Headers.Set(Constants.Headers.TenantId, tenant.Name.ToLowerInvariant());
+                        c.Headers.Set(MultiTenancy.Constants.Headers.TenantId, tenant.Name.ToLowerInvariant());
 
                         string tenantJson = JsonConvert.SerializeObject(tenant);
                         var tenantBase64 = Convert.ToBase64String(Encoding.UTF8.GetBytes(tenantJson));
-                        c.Headers.Set(Constants.Headers.TenantConfig, tenantBase64);
+                        c.Headers.Set(MultiTenancy.Constants.Headers.TenantConfig, tenantBase64);
                     }
                 }
             }));
-        }
-
-        internal static void UseSerilogLogging(this IBusFactoryConfigurator cfg)
-        {
-            ConsumeObserverLogger consumeObserverLogger = new ConsumeObserverLogger(Log.Logger);
-            cfg.ConnectConsumeObserver(consumeObserverLogger);
         }
     }
 }

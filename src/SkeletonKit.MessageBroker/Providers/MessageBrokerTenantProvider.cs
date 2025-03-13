@@ -1,9 +1,8 @@
-﻿using SkeletonKit.Common;
-using SkeletonKit.MultiTenancy.Abstractions.Repositories;
-using SkeletonKit.MultiTenancy.Services;
-using MassTransit;
+﻿using MassTransit;
 using MassTransit.DependencyInjection;
 using Microsoft.AspNetCore.Http;
+using SkeletonKit.MultiTenancy.Abstractions.Repositories;
+using SkeletonKit.MultiTenancy.Services;
 
 namespace SkeletonKit.MessageBroker.Services
 {
@@ -27,7 +26,7 @@ namespace SkeletonKit.MessageBroker.Services
                 {
                     ConsumeContext scopedConsumeContextProvider = _scopedConsumeContextProvider.GetContext();
                     if (scopedConsumeContextProvider != null &&
-                        scopedConsumeContextProvider.Headers.TryGetHeader(Constants.Headers.TenantId, out var header))
+                        scopedConsumeContextProvider.Headers.TryGetHeader(MultiTenancy.Constants.Headers.TenantId, out var header))
                     {
                         return header.ToString();
                     }

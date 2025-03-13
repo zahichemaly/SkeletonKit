@@ -3,11 +3,32 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <RepositoryUrl>https://github.com/zahichemaly/SkeletonKit/tree/master/src/SkeletonKit.MessageBroker</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>favicon.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/zahichemaly/SkeletonKit</PackageProjectUrl>
+    <Title>SkeletonKit Message Broker</Title>
+    <PackageTags>message broker;rabbitmq;azure service bus</PackageTags>
+    <Authors>Zahi Chemaly</Authors>
+    <Description>Generic message broker support for RabbitMQ or Azure Service Bus.</Description>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AspNetCore.HealthChecks.AzureServiceBus" Version="6.0.4" />
-    <PackageReference Include="AspNetCore.HealthChecks.Rabbitmq" Version="6.0.2" />
+    <None Include="..\..\assets\favicon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="MassTransit" Version="8.3.6" />
     <PackageReference Include="MassTransit.Abstractions" Version="8.3.6" />
     <PackageReference Include="MassTransit.Azure.ServiceBus.Core" Version="8.3.6" />
@@ -16,14 +37,15 @@
     <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
-    <PackageReference Include="Serilog" Version="4.2.0" />
-    <PackageReference Include="Serilog.Enrichers.MassTransit8" Version="1.0.0" />
+    <PackageReference Include="SkeletonKit.Configuration" Version="1.0.0" />
+    <PackageReference Include="SkeletonKit.MultiTenancy" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SkeletonKit.Common\SkeletonKit.Common.csproj" />
-    <ProjectReference Include="..\SkeletonKit.Configuration\SkeletonKit.Configuration.csproj" />
-    <ProjectReference Include="..\SkeletonKit.MultiTenancy\SkeletonKit.MultiTenancy.csproj" />
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
