@@ -1,11 +1,11 @@
-﻿using SkeletonKit.MultiTenancy.Abstractions.Providers;
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using SkeletonKit.MultiTenancy.Abstractions.Providers;
 using SkeletonKit.MultiTenancy.Abstractions.Repositories;
 using SkeletonKit.MultiTenancy.Configurations;
 using SkeletonKit.MultiTenancy.Repositories;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
 
-namespace IngoX.MultiTenancy
+namespace SkeletonKit.MultiTenancy
 {
     public static class DependencyInjection
     {

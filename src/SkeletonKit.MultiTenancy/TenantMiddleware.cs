@@ -1,9 +1,8 @@
-﻿using SkeletonKit.Common;
-using SkeletonKit.MultiTenancy.Abstractions.Repositories;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Primitives;
 using Newtonsoft.Json;
+using SkeletonKit.MultiTenancy.Abstractions.Repositories;
 using System.Text;
 
 namespace SkeletonKit.MultiTenancy
