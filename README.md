@@ -3,18 +3,28 @@ This is a collection of core components that can help lazy developers easily int
 
 ## Features
 The tools include:
+
 ✅ File management solution using different strategies (Local, FTP, Azure Storage Account)
+
 ✅️ Caching mechanism solution using different strategies (In-memory, Redis)
+
 ✅ Message broker solution using different technologies (RabbitMQ, Azure Service Bus) through MassTransit
+
 ✅ App versionning solution to push force update or server maintenance to end-users.
 
 ## Dependencies
 This kit relies on several dependencies:
+
 ⭕ [MongoDB C# Driver](https://github.com/mongodb/mongo-csharp-driver)
+
 ⭕ [MongoDB Generic Repository](https://github.com/alexandre-spieser/mongodb-generic-repository)
+
 ⭕ [MassTransit](https://github.com/MassTransit/MassTransit)
+
 ⭕ [CacheManager](https://github.com/MichaCo/CacheManager)
+
 ⭕ [CacheManager](https://github.com/MichaCo/CacheManager)
+
 
 ## Libraries overview
 This is a list of common modules located in the `Common/` directory:
