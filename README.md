@@ -1,5 +1,5 @@
 # 💀 SkeletonKit 
-This is a collection of core components that can help lazy developers easily integrate with several technologies so they can quick off their project faster. 
+This is a collection of core components that can help lazy developers easily integrate with several technologies so they can kick off their project faster. 
 
 ## Features
 The tools include:
