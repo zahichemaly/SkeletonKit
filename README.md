@@ -23,8 +23,6 @@ This kit relies on several dependencies:
 
 ⭕ [CacheManager](https://github.com/MichaCo/CacheManager)
 
-⭕ [CacheManager](https://github.com/MichaCo/CacheManager)
-
 
 ## Libraries overview
 This is a list of common modules located in the `Common/` directory:
